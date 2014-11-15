@@ -1,0 +1,9 @@
+bin
+obj
+*.sdf
+*.suo
+*.user
+Visual Micro
+*.opensdf
+Release
+Debug
