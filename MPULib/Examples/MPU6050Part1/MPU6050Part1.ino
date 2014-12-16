@@ -282,7 +282,7 @@ void PrintMPUValues()
 void NormalizeQuaternion(float *quat)
 {
     float length = sqrt(quat[QUAT_W] * quat[QUAT_W] + quat[QUAT_X] * quat[QUAT_X] +  
-        quat[QUAT_Y] * quat[QUAT_Y] + quat[QUAT_Z]);
+        quat[QUAT_Y] * quat[QUAT_Y] + quat[QUAT_Z] * quat[QUAT_Z]);
 
     if (length == 0)
         return;
